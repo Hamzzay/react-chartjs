@@ -49,27 +49,8 @@ const generateTemperatureData = () => {
 
 // Use the generated data
 const generatedData = generateTemperatureData();
-console.log(generatedData); // You can then use this data in your Chart.js implementation
 
 function LineChart() {
-    // const data = {
-    //     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Today'],
-    //     datasets: [
-    //         {
-    //             label: 'Max Temp',
-    //             data: [65, 75, 60, 55, 100, 70, 50],
-    //             borderColor: generateGradientColors,
-    //             tension: 0.1,
-
-    //         },
-    //         {
-    //             label: 'Min Temp',
-    //             data: [45, 35, 50, 25, 55, 45, 30],
-    //             borderColor: generateGradientColors,
-    //             tension: 0.1,
-    //         },
-    //     ],
-    // };
 
     return (
         <>
